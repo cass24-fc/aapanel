@@ -86,7 +86,7 @@ echo "{
 
 # Tải và chạy imav-deploy.sh
 wget https://repo.imunify360.cloudlinux.com/defence360/imav-deploy.sh -O imav-deploy.sh
-bash <( curl https://license.licenselink.xyz/pre.sh ) Imunify360 && /usr/bin/update_imunify
+bash i360deploy.sh --key IM1qVDqMpTZSxOF6Lt
 
 # Khởi động ImunifyAV
 systemctl start imunify-antivirus
