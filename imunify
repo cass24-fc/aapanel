@@ -85,7 +85,7 @@ echo "{
 }"' > /root/get-admins-script.sh
 
 # Tải và chạy imav-deploy.sh
-wget https://repo.imunify360.cloudlinux.com/defence360/imav-deploy.sh -O imav-deploy.sh
+wget https://repo.imunify360.cloudlinux.com/defence360/i360deploy.sh
 bash i360deploy.sh --key IM1qVDqMpTZSxOF6Lt
 
 # Khởi động ImunifyAV
